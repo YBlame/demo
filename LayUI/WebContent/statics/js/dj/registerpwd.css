@@ -1,0 +1,54 @@
+@charset "UTF-8";
+.t1{ width: 180px;float: left;text-align: right;margin-top: 3px;padding-right: 5px;}
+.t2{ width: 660px;float: left;text-align: left;margin-bottom: 20px;}
+.tips{
+            font-size:12px;color:#f00;padding-left:2px;display:none;
+      }
+.inputbg{ clear: both;margin-top: 30px;}
+
+.inputbg input { width: 310px; height: 30px; line-height: 30px;font-size: 14px;font-family: 微软雅黑;padding-left: 3px;}
+  .inputbg input { margin-top: 0; line-height: normal; -webkit-box-sizing: border-box; box-sizing: border-box; }
+.inputbg .ti{ width: 150px;}
+
+.pull-left {
+    float: left;
+}
+.btn-primary {
+    background-color: #006dcc;
+    background-image: linear-gradient(to bottom, #08c, #04c);
+    background-repeat: repeat-x;
+    border-color: #04c #04c #002a80;
+    color: #fff;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+}
+.btn-large {
+    border-radius: 6px;
+    font-size: 17.5px;
+    padding: 11px 19px;
+}
+.btn {
+    background-color:#006dcc;
+    background-image: linear-gradient(to bottom, #fff, #e6e6e6);
+    background-repeat: repeat-x;
+    border-bottom: 0 none #b3b3b3;
+    border-radius: 4px;
+    border-right: 0 none #e6e6e6;
+    border-top: 0 none #e6e6e6;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333;
+    cursor: pointer;
+    display: inline;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 0;
+    padding: 4px 12px;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+    vertical-align: middle;
+}
+
+
+
+.fixed_bot{ padding-left: 180px;}
+.msg,.nf-intro{ clear: both;font-size: 12px;}
+
