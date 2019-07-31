@@ -13,6 +13,9 @@ function toRule(){//角色管理
 function findZhxx(){//添加展会
 	$("#demoAdmin").attr("src", "findZhxx")
 }
+function findZhxx(){//添加展会
+	$("#demoAdmin").attr("src", "findZhxx")
+}
 
 function userOut(){//退出
 	layer.confirm('确定退出吗？', function(

@@ -71,19 +71,13 @@ public class IndexController {
 		while(rs.next()){
 			guid = rs.getString(1);
 		}
-		if (guid.equals("abf42d7f52cc48389702be4bfcde3e20")) {//当前角色为搭建商
-			//配置通用首页
-		}else if(guid.equals("a666df5383f345868cc5b46a257da351")){//当前角色为系统管理员(开发人员)
+		if(guid.equals("a666df5383f345868cc5b46a257da351")){//当前角色为系统管理员(开发人员)
 			return "index";
 		}else if(guid.equals("97e115aba8124896833070694701d96b")){//主场管理员
 			return "zhxx/adminIndex";
-		}else if(guid.equals("b58f1fdfb3cf451fabd704a6c8f8eadf")){//一般工作人员
-			//配置的通用首页
-			
 		}else{
-			return "404";
+			return "DJ/djIndex";
 		}
-		return "404";
 	}
 	@RequestMapping(value = "findZhxx")
 	public void findZhxx(HttpServletRequest request, HttpServletResponse res) throws Exception{
